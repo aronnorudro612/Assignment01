@@ -31,6 +31,9 @@ nav ul li{
 .text-color{
     color: #4E47FF;
 }
+.bg-color{
+    background-color: #F5F8FF;
+}
 .Primary-btn{
     background-color: #4E47FF;
     color: white;
@@ -141,4 +144,43 @@ nav ul li{
 }
 .users-panel-content{
     padding: 0 142px 50px;
+}
+
+/* form styles */
+.form-section{
+    margin: 92px 150px 14px;
+    display: flex;
+    justify-content: center;
+    gap: 300px;
+
+}
+.form-title{
+    font-size: 97px;
+    font-weight: bold;
+}
+.form-input h4{
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 18;
+}
+.form-input input[type="email"], .form-input input[type="text"], textarea{
+    height: 70px;
+    width: 497px;
+    border-radius: 10px;
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 32px;
+    margin-bottom: 19px;
+    border: none;
+
+}
+textarea{
+    height: 135px;
+}
+.button2{
+    display: block;
+    height: 62px;
+    width: 530px;
+    margin-bottom: 71px;
 }
