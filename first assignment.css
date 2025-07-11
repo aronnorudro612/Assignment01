@@ -162,6 +162,7 @@ nav ul li {
 .reviews-section {
     margin: 137px 151px;
     justify-content: space-around;
+    justify-content: center;
 }
 
 .star-image {
@@ -171,6 +172,7 @@ nav ul li {
 .reviews-container {
     display: flex;
     gap: 20px;
+    justify-content: center;
 }
 
 .reviews {
