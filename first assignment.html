@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="first assignment.css">
 </head>
 
-<body class="open-sans-unique bg-color">
+<body class="raleway-normal bg-color">
     <header class="banner-bg">
         <nav>
             <h3 class="inter-nav logo-style text-color">LOGO</h3>
@@ -38,34 +38,96 @@
     <main>
         <section class="extra-content">
             <div class="extra-content-text">
-                    <h3 class="extra-content-title">
-                        See It in Action
-                    </h3>
-                    <p class="extra-content-discription">Explore the live preview and imagine your brand in this bold new look.</p>
-                    <a href="button.com"><button class="extra-content-btn Primary-btn">Lunch Live Preview</button></a>
+                <h3 class="extra-content-title">
+                    See It in Action
+                </h3>
+                <p class="extra-content-discription">Explore the live preview and imagine your brand in this bold new
+                    look.</p>
+                <a href="button.com"><button class="extra-content-btn Primary-btn">Lunch Live Preview</button></a>
             </div>
-           <img class="extra-content-image" src="Assets/wc-mini.png" alt="">
-            
+            <img class="extra-content-image" src="Assets/wc-mini.png" alt="">
+
         </section>
 
-        <section class="users">  <div class="users-panel-content">
-            <h4 class="users-title">Joined Thousands of Productive Users</h4>
+        <section class="users">
+            <div class="users-panel-content">
+                <h4 class="users-title">Joined Thousands of Productive Users</h4>
                 <div class="users-content inter-nav">
-                  <div class="users-column">
-                    <h3 class="users-column-title">50K</h3>
-                    <h5 class="users-column-subtitle">Active Users</h5>
-                  </div>
-                  <div class="users-column">
-                    <h3 class="users-column-title">2M+</h3>
-                    <h5 class="users-column-subtitle">Focus Sessions</h5>
-                  </div>
-                  <div class="users-column">
-                    <h3 class="users-column-title">95%</h3>
-                    <h5 class="users-column-subtitle">Satisfaction Rate</h5>
-                  </div>
-                </div> 
+                    <div class="users-column">
+                        <h3 class="users-column-title">50K</h3>
+                        <h5 class="users-column-subtitle">Active Users</h5>
+                    </div>
+                    <div class="users-column">
+                        <h3 class="users-column-title">2M+</h3>
+                        <h5 class="users-column-subtitle">Focus Sessions</h5>
+                    </div>
+                    <div class="users-column">
+                        <h3 class="users-column-title">95%</h3>
+                        <h5 class="users-column-subtitle">Satisfaction Rate</h5>
+                    </div>
+                </div>
         </section>
+        <section class="reviews-section">
+            <h2 class="reviews-title">What our users say</h2>
+            <div class="reviews-container">
+                <!-- .reviews*3>img+h3.reviews-designer+p.reviews-discription+img+h4.reviewer-name+h5.date -->
+                <div class="reviews">
+                    <div class="star-image">
+                        <img src="Assets/icon-star.png" alt="">
+                        <img src="Assets/icon-star.png" alt="">
+                        <img src="Assets/icon-star.png" alt="">
+                        <img src="Assets/icon-star.png" alt="">
+                        <img src="Assets/icon-star.png" alt="">
+                    </div>
+                    <h3 class="reviews-designer">Loved by Designer</h3>
+                    <p class="reviews-discription">This template instantly leveled up our presence.” - Studio Vertex</p>
 
+                    <div class="reviewer-info">
+                        <img class="reviewer-image" src="Assets/avatar.png" alt="">
+                        <div class="reviewer-text">
+                            <h4 class="reviewer-name">Reviewer Name</h4>
+                            <h5 class="date">Date</h5>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="reviews">
+                    <div class="star-image">
+                        <img src="Assets/icon-star.png" alt="">
+                        <img src="Assets/icon-star.png" alt="">
+                        <img src="Assets/icon-star.png" alt="">
+                        <img src="Assets/icon-star.png" alt="">
+                        <img src="Assets/icon-star.png" alt="">
+                    </div>
+                    <h3 class="reviews-designer">Loved by Designer</h3>
+                    <p class="reviews-discription">This template instantly leveled up our presence.” - Studio Vertex</p>
+                    <div class="reviewer-info">
+                        <img class="reviewer-image" src="Assets/avatar.png" alt="">
+                        <div class="reviewer-text">
+                            <h4 class="reviewer-name">Reviewer Name</h4>
+                            <h5 class="date">Date</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="reviews">
+                    <div class="star-image">
+                        <img src="Assets/icon-star.png" alt="">
+                        <img src="Assets/icon-star.png" alt="">
+                        <img src="Assets/icon-star.png" alt="">
+                        <img src="Assets/icon-star.png" alt="">
+                        <img src="Assets/icon-star.png" alt="">
+                    </div>
+                    <h3 class="reviews-designer">Loved by Designer</h3>
+                    <p class="reviews-discription">This template instantly leveled up our presence.” - Studio Vertex</p>
+                    <div class="reviewer-info">
+                        <img class="reviewer-image" src="Assets/avatar.png" alt="">
+                        <div class="reviewer-text">
+                            <h4 class="reviewer-name">Reviewer Name</h4>
+                            <h5 class="date">Date</h5>
+                        </div>
+                    </div>
+                </div>
+        </section>
         <section class="form-section">
             <div class="form-column">
                 <h2 class="form-title">Let's Get in Touch</h2>
@@ -73,15 +135,22 @@
 
             <div class="form-column inter-nav">
                 <div class="form-input">
-                    <h4 class="inter-nav">Email</h4>
+                    <label for="email">
+                        <h4 class="inter-nav">Email</h4>
+                    </label>
                     <input type="email" name="" id="" placeholder="example@email.com">
                 </div>
                 <div class="form-input">
-                    <h4 class="inter-nav">Name</h4>
-                    <input type="text" name="" id="" placeholder="Full name"> 
+                    <label for="Name">
+                        <h4 class="inter-nav">Name</h4>
+                    </label>
+                    <input type="text" name="" id="" placeholder="Full name">
                 </div>
                 <div class="form-input ">
-                    <h4 class="inter-nav">Message</h4>
+                    <label for="Message">
+                        <h4 class="inter-nav">Message</h4>
+                    </label>
+
                     <textarea name="" id="" cols="30" rows="30" placeholder="write your message"></textarea>
                     <button class="Primary-btn button2" type="submit">Get in Touch</button>
                 </div>
@@ -89,17 +158,18 @@
         </section>
     </main>
     <footer class="footer-content">
-            <section >
-                <h1 class="inter-nav">LOGO</h1>
-                <P class="logo-discription">Ready to elevate your online presence? Contact us today to discuss your project and discover how we can bring your vision to life.</P>
-                
-            </section>
-            <div class="footer-nav">
-                    <a href="">Home</a>
-                    <a href="">About</a>
-                    <a href="">How it Works</a>
-                    <a href="">Services</a>
-                </div>
+        <section>
+            <h1 class="inter-nav">LOGO</h1>
+            <P class="logo-discription">Ready to elevate your online presence? Contact us today to discuss your project
+                and discover how we can bring your vision to life.</P>
+
+        </section>
+        <div class="footer-nav">
+            <a href="">Home</a>
+            <a href="">About</a>
+            <a href="">How it Works</a>
+            <a href="">Services</a>
+        </div>
     </footer>
 </body>
 
