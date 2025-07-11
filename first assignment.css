@@ -1,0 +1,71 @@
+
+.inter-nav-logo {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 34px;
+  font-weight: 900;
+}
+.open-sans-unique {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+/*  Nav style */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 150px;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+/* Shared color */
+.text-color{
+    color: #4E47FF;
+}
+.Primary-btn{
+    background-color: #4E47FF;
+    color: white;
+    font-weight: bold;
+    padding: 12px 36px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.Primary-btn:hover{
+    background-color: blueviolet;
+}
+
+/* Banner styles */
+
+/* .banner{
+    justify-content: center;
+    margin: 309px 267px 152px 267px;
+}
+ */
+ .banner-title{
+    font-size: 65px;
+    font-weight: bold;
+  
+ }
+ .banner{
+    max-width: 905px;
+    max-height: 237px;
+    text-align: center;
+    margin: 100px auto;
+
+ }
+ .banner-bg{
+    background-image: url(Assets/Hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5px 0 100px;
+ }
